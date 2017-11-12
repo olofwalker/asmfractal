@@ -198,7 +198,7 @@ stop:
 	mov r14b,[ecx]
 	
 escapeBlack:	
-	call setPixel
+	call setPipxel
 		
 	add r9d,1
 	cmp r9d,IMAGE_WIDTH
